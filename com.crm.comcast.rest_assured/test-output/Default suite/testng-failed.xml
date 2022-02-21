@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RMGYantraTest.CreateResourceAndVarifyInDbTest">
+      <class name="pojoLibraryForJira.callingpojo">
         <methods>
-          <include name="createResourceAndVarifyInDBTest"/>
-          <include name="asConfing"/>
-          <include name="bsConfig"/>
+          <include name="pojokabaap"/>
         </methods>
-      </class> <!-- com.RMGYantraTest.CreateResourceAndVarifyInDbTest -->
+      </class> <!-- pojoLibraryForJira.callingpojo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
