@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="genericUtility.ListenerImplementation"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.authentication.BasicAuthTest"/>
+      <class name="com.authentication.Auth2"/>
+      <class name="com.authentication.PreemptiveAndDigestive"/>
+      <class name="com.authentication.BearerTockenTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

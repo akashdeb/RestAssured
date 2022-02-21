@@ -15,7 +15,7 @@ public class DatabaseUtility {
 		
 		public Connection con;
 		/**
-		 * This is gereric method to connect to db
+		 * This is generic method to connect to db
 		 * @throws Throwable
 		 */
 		public void connectToDb() throws Throwable
@@ -25,7 +25,7 @@ public class DatabaseUtility {
 			con= DriverManager.getConnection(IConstants.dbURL, IConstants.dbUserName, IConstants.dbPassword);
 		}
 		/**
-		 * This method will execute the the query and varify data in database
+		 * This method will execute the the query and verify data in database
 		 * @param query
 		 * @param columnIndex
 		 * @param expData
